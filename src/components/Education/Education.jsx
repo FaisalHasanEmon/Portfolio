@@ -1,8 +1,8 @@
 const Education = () => {
   return (
-    <div className="h-[calc(100vh-65px)] gap-9 w-full flex flex-col justify-center items-center ">
+    <div className="min-h-[calc(100vh-65px)] gap-9 w-full flex flex-col justify-center items-center ">
       <div className="w-full">
-        <h1 className=" text-5xl font-bold  mb-10 text-left">
+        <h1 className=" text-4xl lg:text-5xl font-bold  mb-10 text-left">
           {"<education/>"}
         </h1>
       </div>

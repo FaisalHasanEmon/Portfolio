@@ -20,16 +20,18 @@ import { VscVscode } from "react-icons/vsc";
 
 const Skills = () => {
   return (
-    <div className="h-[calc(100vh-65px)] flex justify-center items-center flex-col gap-9">
+    <div className="min-h-[calc(100vh-65px)] flex justify-center items-center flex-col gap-9 ">
       <div className="w-full">
-        <h1 className=" text-5xl font-bold  mb-10 text-left">{"<skills/>"}</h1>
+        <h1 className="text-4xl md:text-5xl font-bold  mb-10 text-left">
+          {"<skills/>"}
+        </h1>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full ">
         {/* Card-1 */}
-        <div className="card w-full bg-base-100 card-md  shadow-2xl">
+        <div className="card w-full card-md  shadow-base-200 shadow-lg backdrop-blur-2xl bg-white/2">
           <div className="card-body">
             <h2 className=" text-center text-xl font-bold">
-              Front-end and user verification
+              Front-end And User Verification
             </h2>
             <div className="mt-5 flex gap-3 justify-evenly  items-center flex-wrap *:flex *:flex-col *:justify-center *:items-center">
               <div>
@@ -60,7 +62,7 @@ const Skills = () => {
           </div>
         </div>
         {/* Card-2 */}
-        <div className="card w-full bg-base-100 card-md  shadow-2xl">
+        <div className="card w-full  card-md  shadow-base-200 shadow-lg backdrop-blur-2xl bg-white/2">
           <div className="card-body">
             <h2 className=" text-center text-xl font-bold">
               Back-end and database
@@ -82,7 +84,7 @@ const Skills = () => {
           </div>
         </div>
         {/* Card-3 */}
-        <div className="card w-full bg-base-100 card-md  shadow-2xl">
+        <div className="card w-full  card-md  shadow-base-200 shadow-lg backdrop-blur-2xl bg-white/2">
           <div className="card-body">
             <h2 className=" text-center text-xl font-bold">
               Version Control & Tools
@@ -108,7 +110,7 @@ const Skills = () => {
           </div>
         </div>
         {/* Card-4 */}
-        <div className="card w-full bg-base-100 card-md  shadow-2xl">
+        <div className="card w-full  card-md  shadow-base-200 shadow-lg backdrop-blur-2xl bg-white/2">
           <div className="card-body">
             <h2 className=" text-center text-xl font-bold">
               Previous Knowledge With

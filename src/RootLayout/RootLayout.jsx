@@ -7,9 +7,9 @@ import { Element } from "react-scroll";
 import Skills from "../components/Skills/Skills";
 const RootLayout = () => {
   return (
-    <div className="container mx-auto px-5 ">
+    <div className="container mx-auto px-5 lg:px-20">
       <Navbar></Navbar>
-      <div className="pt-[70px] *:mb-4">
+      <div className="pt-[70px] *:mb-10 *:md:mb-4">
         <Element name="home">
           <Banner></Banner>
         </Element>

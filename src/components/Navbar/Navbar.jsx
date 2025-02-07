@@ -82,9 +82,21 @@ const Navbar = () => {
     </>
   );
   return (
-    <div className="navbar bg-base-100 shadow-2xl fixed mx-auto  left-0 z-50 ">
-      <div className="navbar-start">
-        <div className="dropdown">
+    <div className="navbar bg-base-100 shadow-2xl fixed mx-auto  left-0 z-50 lg:px-20 ">
+      <div className="navbar-start w-[60%]">
+        <p className="w-full text-[16px] md:text-2xl font-extrabold">
+          <span className="text-orange-500">{"<Faisal Hasan"}</span>
+          {" Emon/>"}
+        </p>
+      </div>
+      <div className="navbar-center hidden lg:flex">
+        <ul className="menu menu-horizontal px-1">{tab}</ul>
+      </div>
+      <div className="navbar-end w-[40%]">
+        <a className="btn  flex justify-center items-center gap-2">
+          Download CV <FaDownload />
+        </a>
+        <div className="dropdown dropdown-end">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -104,24 +116,11 @@ const Navbar = () => {
           </div>
           <ul
             tabIndex={0}
-            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
+            className="menu menu-sm dropdown-content bg-base-200 rounded-box z-1 mt-3 w-52 p-2 shadow"
           >
             {tab}
           </ul>
         </div>
-        {/* <a className="btn btn-ghost text-xl">daisyUI</a> */}
-        <p className="text-2xl font-bold">
-          <span className="text-orange-500">{"<Faisal Hasan"}</span>
-          {" Emon/>"}
-        </p>
-      </div>
-      <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">{tab}</ul>
-      </div>
-      <div className="navbar-end">
-        <a className="btn  flex justify-center items-center gap-2">
-          Download CV <FaDownload />
-        </a>
       </div>
     </div>
   );
