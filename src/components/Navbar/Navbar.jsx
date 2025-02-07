@@ -1,27 +1,75 @@
 import React from "react";
 import { FaDownload } from "react-icons/fa";
-import { NavLink } from "react-router";
+import { useLocation } from "react-router";
+
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   const tab = (
     <>
       <li>
-        <NavLink to="">Home</NavLink>
+        <Link
+          to="home"
+          smooth={true}
+          duration={500}
+          spy={true}
+          hashSpy={true}
+          activeClass="text-red-500 font-bold"
+        >
+          Home
+        </Link>
       </li>
       <li>
-        <NavLink to="about-me">About Me</NavLink>
+        <Link
+          to="about-me"
+          smooth={true}
+          duration={500}
+          spy={true}
+          hashSpy={true}
+          activeClass="text-red-500 font-bold"
+        >
+          About Me
+        </Link>
       </li>
       <li>
-        <NavLink>Education</NavLink>
+        <Link
+          to="education"
+          smooth={true}
+          duration={500}
+          activeClass="text-red-500"
+        >
+          Education
+        </Link>
       </li>
       <li>
-        <NavLink>Skills</NavLink>
+        <Link
+          to="skills"
+          smooth={true}
+          duration={500}
+          activeClass="text-red-500"
+        >
+          Skills
+        </Link>
       </li>
       <li>
-        <NavLink>Projects</NavLink>
+        <Link
+          to="projects"
+          smooth={true}
+          duration={500}
+          activeClass="text-red-500"
+        >
+          Projects
+        </Link>
       </li>
       <li>
-        <NavLink>Contact & Social links</NavLink>
+        <Link
+          to="contact"
+          smooth={true}
+          duration={500}
+          activeClass="text-red-500"
+        >
+          Contact & Social links
+        </Link>
       </li>
     </>
   );
@@ -50,23 +98,7 @@ const Navbar = () => {
             tabIndex={0}
             class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
           >
-            <li>
-              <a>Item 1</a>
-            </li>
-            <li>
-              <a>Parent</a>
-              <ul className="p-2">
-                <li>
-                  <a>Submenu 1</a>
-                </li>
-                <li>
-                  <a>Submenu 2</a>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <a>Item 3</a>
-            </li>
+            {tab}
           </ul>
         </div>
         {/* <a className="btn btn-ghost text-xl">daisyUI</a> */}
