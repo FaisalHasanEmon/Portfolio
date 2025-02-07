@@ -7,46 +7,54 @@ import { Link } from "react-scroll";
 const Navbar = () => {
   const tab = (
     <>
+      {/* Banner */}
       <li>
         <Link
           to="home"
           smooth={true}
           duration={500}
           spy={true}
-          hashSpy={true}
+          // hashSpy={true}
           activeClass="text-red-500 font-bold"
         >
           Home
         </Link>
       </li>
+      {/* About Me */}
       <li>
         <Link
           to="about-me"
           smooth={true}
           duration={500}
           spy={true}
-          hashSpy={true}
+          // hashSpy={true}
           activeClass="text-red-500 font-bold"
         >
           About Me
         </Link>
       </li>
+      {/* Education */}
       <li>
         <Link
           to="education"
           smooth={true}
           duration={500}
-          activeClass="text-red-500"
+          spy={true}
+          // hashSpy={true}
+          activeClass="text-red-500 font-bold"
         >
           Education
         </Link>
       </li>
+      {/* Skills */}
       <li>
         <Link
           to="skills"
           smooth={true}
           duration={500}
-          activeClass="text-red-500"
+          spy={true}
+          // hashSpy={true}
+          activeClass="text-red-500 font-bold"
         >
           Skills
         </Link>
@@ -74,7 +82,7 @@ const Navbar = () => {
     </>
   );
   return (
-    <div className="navbar bg-base-100 shadow-2xl fixed mx-auto  left-0  ">
+    <div className="navbar bg-base-100 shadow-2xl fixed mx-auto  left-0 z-50 ">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
