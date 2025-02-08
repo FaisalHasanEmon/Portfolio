@@ -3,7 +3,7 @@ const AboutMe = () => {
   return (
     <div className="min-h-[calc(100vh-65px)] flex justify-center items-center">
       <div className="hero ">
-        <div className="hero-content flex-col-reverse md lg:flex-row gap-9">
+        <div className="hero-content flex-col-reverse md md:flex-row gap-9">
           <img
             src="/about_me.png"
             className="h-[400px] max-w-sm rounded-lg  shadow-base-200 shadow-lg"

@@ -1,5 +1,6 @@
 import React from "react";
-import { FaDownload } from "react-icons/fa";
+import { FaDownload, FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
+import { MdOutlineEmail } from "react-icons/md";
 import { ReactTyped } from "react-typed";
 
 const Banner = () => {
@@ -20,6 +21,20 @@ const Banner = () => {
             loop
           />
         </h2>
+        <div>
+          <div className="flex justify-start items-center gap-2">
+            <FaWhatsapp />
+            <p>+880 1843226284</p>
+          </div>
+          <div className="flex justify-start items-center gap-2">
+            <MdOutlineEmail />
+            <p>faisalhasanemon@gmail.com</p>
+          </div>
+          <div className="flex justify-start items-center gap-2">
+            <FaLinkedin />
+            <p>linkedin.com/in/faisalhasanemon</p>
+          </div>
+        </div>
         <button>
           <a
             href="https://docs.google.com/document/d/1xIgjIW2XiEn-AZzKkTkcIiNDAunIUDdB/edit?usp=sharing&ouid=108384474506151884483&rtpof=true&sd=true"

@@ -25,33 +25,61 @@ const Contact = () => {
   };
 
   return (
-    <form ref={form} onSubmit={sendEmail} className="">
-      <label className="fieldset-label mt-5">Your Name</label>
-      <input
-        type="text"
-        placeholder="Your Name"
-        className="input mt-1"
-        name="user_name"
-      />
+    <div className="min-h-[calc(100vh-65px)]">
+      <div className="w-full">
+        <h1 className="text-4xl lg:text-5xl font-bold  mb-10 text-left">
+          {"<contact me/>"}
+        </h1>
 
-      <label className="fieldset-label mt-5">Your Email</label>
-      <input
-        type="email"
-        className="input mt-1"
-        placeholder="Email"
-        name="user_email"
-      />
+        <div className="flex flex-col justify-center items-end lg:flex-row lg:justify-center lg:items-start gap-2 w-full">
+          <figure className="w-full  lg:w-1/2  bg-base-200 overflow-clip rounded-md ">
+            <img
+              src="/giphy.gif"
+              alt="Email GIF"
+              className="object-cover w-full"
+            />
+          </figure>
+          <div className="w-full lg:w-1/2">
+            <form
+              ref={form}
+              onSubmit={sendEmail}
+              className="card w-full card-md  shadow-base-200 shadow-lg backdrop-blur-2xl bg-white/2 p-8 *:w-full"
+            >
+              <label className="fieldset-label mt-5">Your Name</label>
+              <input
+                type="text"
+                placeholder="Your Name"
+                className="input mt-1"
+                name="user_name"
+              />
 
-      <label className="fieldset-label mt-5">Message</label>
-      <textarea
-        className="textarea mt-1"
-        placeholder="Your Message"
-        name="message"
-      />
-      <div>
-        <input className="btn mt-5" type="submit" value="Send" />
+              <label className="fieldset-label mt-5">Your Email</label>
+              <input
+                type="email"
+                className="input mt-1"
+                placeholder="Email"
+                name="user_email"
+              />
+
+              <label className="fieldset-label mt-5">Message</label>
+              <textarea
+                rows={6}
+                className="textarea mt-1 "
+                placeholder="Your Message"
+                name="message"
+              />
+              <div className="w-full">
+                <input
+                  className="btn mt-5 lg:mt-9 w-full"
+                  type="submit"
+                  value="Send"
+                />
+              </div>
+            </form>
+          </div>
+        </div>
       </div>
-    </form>
+    </div>
   );
 };
 export default Contact;
