@@ -290,8 +290,6 @@ const Projects = () => {
       </div>
 
       {/* Modal */}
-      {/* You can open the modal using document.getElementById('ID').showModal() method */}
-
       <dialog id="my_modal_4" className="modal">
         <div className="modal-box w-11/12 max-w-5xl">
           <div className="modal-action">

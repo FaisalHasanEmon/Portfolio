@@ -20,8 +20,14 @@ const Banner = () => {
             loop
           />
         </h2>
-        <button className="btn text-2xl font-bold p-7 flex justify-center items-center gap-3">
-          Download CV <FaDownload />
+        <button>
+          <a
+            href="https://docs.google.com/document/d/1xIgjIW2XiEn-AZzKkTkcIiNDAunIUDdB/edit?usp=sharing&ouid=108384474506151884483&rtpof=true&sd=true"
+            target="_blank"
+            className="btn text-2xl font-bold p-7 flex justify-center items-center gap-3"
+          >
+            Download CV <FaDownload />
+          </a>
         </button>
       </div>
 

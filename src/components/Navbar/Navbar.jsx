@@ -95,7 +95,11 @@ const Navbar = () => {
         <ul className="menu menu-horizontal px-1">{tab}</ul>
       </div>
       <div className="navbar-end w-[40%]">
-        <a className="btn  flex justify-center items-center gap-2">
+        <a
+          href="https://docs.google.com/document/d/1xIgjIW2XiEn-AZzKkTkcIiNDAunIUDdB/edit?usp=sharing&ouid=108384474506151884483&rtpof=true&sd=true"
+          target="_blank"
+          className="btn  flex justify-center items-center gap-2"
+        >
           Download CV <FaDownload />
         </a>
         <div className="dropdown dropdown-end">
