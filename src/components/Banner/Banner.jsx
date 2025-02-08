@@ -7,8 +7,10 @@ const Banner = () => {
   return (
     <div className="min-h-[calc(100vh-65px)]  w-full flex flex-col gap-8 md:flex-row justify-center md:justify-between  items-center ">
       <div className="space-y-8">
-        <h1 className="text-5xl font-bold">Hi! My name is Faisal Hasan Emon</h1>
-        <h2 className="text-2xl md:text-3xl font-bold">
+        <h1 className="text-4xl md:text-5xl font-bold">
+          Hi! My name is Faisal Hasan Emon
+        </h1>
+        <h2 className="text-xl md:text-3xl font-bold">
           I am a <t></t>
           <ReactTyped
             strings={[
@@ -25,6 +27,10 @@ const Banner = () => {
           <div className="flex justify-start items-center gap-2">
             <FaWhatsapp />
             <p>+880 1843226284</p>
+          </div>
+          <div className="flex justify-start items-center gap-2">
+            <FaGithub />
+            <p>github.com/faisalhasanemon</p>
           </div>
           <div className="flex justify-start items-center gap-2">
             <MdOutlineEmail />
