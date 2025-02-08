@@ -1,7 +1,36 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import { toast, Bounce } from "react-toastify";
 
 const Contact = () => {
+  const notifySuccess = (message) => {
+    toast.success(`${message}`, {
+      position: "top-center",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: false,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "light",
+      transition: Bounce,
+    });
+  };
+
+  const notifyError = (message) => {
+    toast.error(`${message}`, {
+      position: "top-center",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: false,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "light",
+      transition: Bounce,
+    });
+  };
+
   const form = useRef();
 
   const YOUR_SERVICE_ID = import.meta.env.VITE_service_id;
@@ -16,10 +45,11 @@ const Contact = () => {
       })
       .then(
         () => {
-          console.log("SUCCESS!");
+          notifySuccess("Thanks For Your Email 😊");
+          e.target.reset();
         },
         (error) => {
-          console.log("FAILED...", error.text);
+          notifyError("Failed to email 😥");
         }
       );
   };
