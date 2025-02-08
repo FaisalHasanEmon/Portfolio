@@ -21,7 +21,7 @@ const Projects = () => {
               <iframe
                 src="https://lingolink-8b4ec.web.app/"
                 frameborder="1"
-                className="w-full h-[500px] object-cover overflow-y-scroll"
+                className="w-full h-[500px] object-cover overflow-y-scroll bg-white"
               ></iframe>
             </div>
             <div className="mt-5">
@@ -119,7 +119,7 @@ const Projects = () => {
               <iframe
                 src="https://pathfinder-cdd41.web.app/"
                 frameborder="1"
-                className="w-full h-[500px] object-cover overflow-y-scroll"
+                className="w-full h-[500px] object-cover overflow-y-scroll bg-white"
               ></iframe>
             </div>
             <div className="mt-5">
@@ -217,7 +217,7 @@ const Projects = () => {
               <iframe
                 src="https://gadget-heaven-ph.netlify.app/"
                 frameborder="1"
-                className="w-full h-[500px] object-cover overflow-y-scroll"
+                className="w-full h-[500px] object-cover overflow-y-scroll bg-white"
               ></iframe>
             </div>
             <div className="mt-5">
