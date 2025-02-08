@@ -17,8 +17,7 @@ const AboutMe = () => {
               seamless user experiences with JavaScript and Tailwind CSS. I have
               worked on various projects, including e-commerce platforms, real
               estate websites, and pet adoption platforms, showcasing my ability
-              to develop feature-rich applications. I also freelance on Fiverr,
-              helping clients bring their ideas to life.
+              to develop feature-rich applications.
             </p>
           </div>
         </div>
