@@ -64,7 +64,9 @@ const Navbar = () => {
           to="projects"
           smooth={true}
           duration={500}
-          activeClass="text-red-500"
+          spy={true}
+          // hashSpy={true}
+          activeClass="text-red-500 font-bold"
         >
           Projects
         </Link>
