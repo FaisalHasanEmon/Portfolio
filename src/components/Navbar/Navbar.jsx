@@ -76,7 +76,9 @@ const Navbar = () => {
           to="contact"
           smooth={true}
           duration={500}
-          activeClass="text-red-500"
+          spy={true}
+          // hashSpy={true}
+          activeClass="text-red-500 font-bold"
         >
           Contact & Social links
         </Link>
