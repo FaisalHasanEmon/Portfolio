@@ -86,9 +86,9 @@ const Navbar = () => {
     </>
   );
   return (
-    <div className="navbar bg-base-100 shadow-2xl fixed mx-auto  left-0 z-50 lg:px-20 ">
+    <div className="navbar bg-base-100 shadow-2xl fixed mx-auto  left-0 z-50 px-0 md:px-10 lg:px-20 ">
       <div className="navbar-start w-[60%]">
-        <p className="w-full text-[16px] md:text-2xl font-extrabold">
+        <p className="ml-1 w-full text-[16px] md:text-2xl font-extrabold">
           <span className="text-orange-500">{"<Faisal Hasan"}</span>
           {" Emon/>"}
         </p>

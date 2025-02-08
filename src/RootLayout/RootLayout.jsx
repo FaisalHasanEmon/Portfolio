@@ -11,8 +11,8 @@ import Footer from "../components/Footer/Footer";
 const RootLayout = () => {
   return (
     <>
+      <Navbar></Navbar>
       <div className="container mx-auto px-5 lg:px-20">
-        <Navbar></Navbar>
         <div className="pt-[70px] *:mb-10 *:md:mb-4">
           <Element name="home">
             <Banner></Banner>
