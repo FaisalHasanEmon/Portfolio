@@ -20,7 +20,7 @@ const Projects = () => {
             <div className="w-full mx-auto rounded-lg overflow-clip border">
               <iframe
                 src="https://lingolink-8b4ec.web.app/"
-                frameborder="1"
+                frameborder="0"
                 className="w-full h-[500px] object-cover overflow-y-scroll bg-white"
               ></iframe>
             </div>
@@ -40,7 +40,7 @@ const Projects = () => {
                   enhance user engagement.
                 </p>
               </div>
-              <div className="mt-5 flex justify-start items-center gap-2 md:gap-5">
+              <div className="mt-5 flex flex-wrap justify-center md:justify-start items-center gap-1 md:gap-5 w-full">
                 <button
                   className="btn"
                   onClick={() =>
@@ -118,7 +118,7 @@ const Projects = () => {
             <div className="w-full mx-auto rounded-lg overflow-clip border">
               <iframe
                 src="https://pathfinder-cdd41.web.app/"
-                frameborder="1"
+                frameborder="0"
                 className="w-full h-[500px] object-cover overflow-y-scroll bg-white"
               ></iframe>
             </div>
@@ -134,7 +134,7 @@ const Projects = () => {
                   futures.
                 </p>
               </div>
-              <div className="mt-5 flex justify-start items-center gap-2 md:gap-5">
+              <div className="mt-5 flex flex-wrap justify-center md:justify-start items-center gap-1 md:gap-5 w-full">
                 <button
                   className="btn"
                   onClick={() =>
@@ -216,7 +216,7 @@ const Projects = () => {
             <div className="w-full mx-auto rounded-lg overflow-clip border">
               <iframe
                 src="https://gadget-heaven-ph.netlify.app/"
-                frameborder="1"
+                frameborder="0"
                 className="w-full h-[500px] object-cover overflow-y-scroll bg-white"
               ></iframe>
             </div>
@@ -229,7 +229,7 @@ const Projects = () => {
                   speakers, earphones, earbuds etc.
                 </p>
               </div>
-              <div className="mt-5 flex justify-start items-center gap-2 md:gap-5">
+              <div className="mt-5 flex flex-wrap justify-center md:justify-start items-center gap-1 md:gap-5 w-full">
                 <button
                   className="btn"
                   onClick={() =>
