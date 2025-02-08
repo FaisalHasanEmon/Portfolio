@@ -11,13 +11,14 @@ const AboutMe = () => {
           <div>
             <h1 className="text-4xl lg:text-5xl font-bold">{"<about me/>"}</h1>
             <p className="py-6 ">
-              Hi, I'm Faisal Hasan Emon, a passionate MERN stack developer
-              dedicated to building efficient and scalable web applications. I
-              specialize in React, Node.js, Express, and MongoDB, crafting
-              seamless user experiences with JavaScript and Tailwind CSS. I have
-              worked on various projects, including e-commerce platforms, real
-              estate websites, and pet adoption platforms, showcasing my ability
-              to develop feature-rich applications.
+              Hi, I'm Faisal Hasan Emon, from Dhaka, Bangladesh. A Computer
+              Science Graduate and a passionate MERN stack developer dedicated
+              to building efficient and scalable web applications. I specialize
+              in React, Node.js, Express, and MongoDB, crafting seamless user
+              experiences with JavaScript and Tailwind CSS. I have worked on
+              various projects, including e-commerce platforms, real estate
+              websites, and pet adoption platforms, showcasing my ability to
+              develop feature-rich applications.
             </p>
           </div>
         </div>

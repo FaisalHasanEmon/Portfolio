@@ -1,5 +1,6 @@
 import React from "react";
 import { FaDownload, FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
+import { IoLocation } from "react-icons/io5";
 import { MdOutlineEmail } from "react-icons/md";
 import { ReactTyped } from "react-typed";
 
@@ -29,16 +30,29 @@ const Banner = () => {
             <p>+880 1843226284</p>
           </div>
           <div className="flex justify-start items-center gap-2">
-            <FaGithub />
-            <p>github.com/faisalhasanemon</p>
-          </div>
-          <div className="flex justify-start items-center gap-2">
             <MdOutlineEmail />
             <p>faisalhasanemon@gmail.com</p>
           </div>
-          <div className="flex justify-start items-center gap-2">
+          <a
+            href="https://github.com/FaisalHasanEmon"
+            target="_blank"
+            className="flex justify-start items-center gap-2"
+          >
+            <FaGithub />
+            <p>github.com/faisalhasanemon</p>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/faisalhasanemon/"
+            target="_blank"
+            className="flex justify-start items-center gap-2"
+          >
             <FaLinkedin />
             <p>linkedin.com/in/faisalhasanemon</p>
+          </a>
+          <div className="flex justify-start items-center gap-2">
+            <IoLocation />
+            <p>Dhaka, Bangladesh</p>
           </div>
         </div>
         <button>
