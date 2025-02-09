@@ -81,6 +81,7 @@ const Contact = () => {
                 placeholder="Your Name"
                 className="input mt-1"
                 name="user_name"
+                required
               />
 
               <label className="fieldset-label mt-5">Your Email</label>
@@ -89,6 +90,7 @@ const Contact = () => {
                 className="input mt-1"
                 placeholder="Email"
                 name="user_email"
+                required
               />
 
               <label className="fieldset-label mt-5">Message</label>
@@ -97,6 +99,7 @@ const Contact = () => {
                 className="textarea mt-1 "
                 placeholder="Your Message"
                 name="message"
+                required
               />
               <div className="w-full">
                 <input
