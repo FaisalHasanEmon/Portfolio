@@ -3,6 +3,7 @@ import { FaDownload, FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import { IoLocation } from "react-icons/io5";
 import { MdOutlineEmail } from "react-icons/md";
 import { ReactTyped } from "react-typed";
+import cv from "../Links/CV";
 
 const Banner = () => {
   return (
@@ -57,7 +58,7 @@ const Banner = () => {
         </div>
         <button>
           <a
-            href="https://docs.google.com/document/d/1xIgjIW2XiEn-AZzKkTkcIiNDAunIUDdB/edit?usp=sharing&ouid=108384474506151884483&rtpof=true&sd=true"
+            href={`${cv}`}
             target="_blank"
             className="btn text-2xl font-bold p-7 flex justify-center items-center gap-3"
           >
@@ -67,7 +68,10 @@ const Banner = () => {
       </div>
 
       <div>
-        <figure className="h-[300px] w-[300px] rounded-tl-[250px] rounded-tr-[125px] rounded-bl-[100px] rounded-br-[168px] lg:h-[450px] lg:w-[450px] lg:rounded-tl-[375px] lg:rounded-tr-[187px] lg:rounded-bl-[150px] lg:rounded-br-[225px]  border-2  border-white shadow-cyan-300 shadow-md overflow-hidden">
+        <figure
+          style={{ borderRadius: "71% 29% 32% 68% / 46% 34% 66% 54%" }}
+          className="h-[300px] w-[300px]  lg:h-[450px] lg:w-[450px]  border-2  border-white shadow-cyan-500 shadow-lg overflow-hidden"
+        >
           <img
             className="object-cover h-full w-full"
             src="/mainPhoto.jpg"

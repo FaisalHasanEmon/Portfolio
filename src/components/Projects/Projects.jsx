@@ -97,7 +97,7 @@ const Projects = () => {
                 </button>
                 <button className="btn">
                   <a href="https://lingolink-8b4ec.web.app/" target="_blank">
-                    Live Lick
+                    Live Link
                   </a>
                 </button>
                 <button className="btn">
@@ -195,7 +195,7 @@ const Projects = () => {
                 </button>
                 <button className="btn">
                   <a href="https://pathfinder-cdd41.web.app/" target="_blank">
-                    Live Lick
+                    Live Link
                   </a>
                 </button>
                 <button className="btn">
@@ -272,7 +272,7 @@ const Projects = () => {
                     href="https://gadget-heaven-ph.netlify.app/"
                     target="_blank"
                   >
-                    Live Lick
+                    Live Link
                   </a>
                 </button>
                 <button className="btn">

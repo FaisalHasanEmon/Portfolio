@@ -1,8 +1,7 @@
 import React from "react";
 import { FaDownload } from "react-icons/fa";
-import { useLocation } from "react-router";
-
 import { Link } from "react-scroll";
+import cv from "../Links/CV";
 
 const Navbar = () => {
   const tab = (
@@ -98,7 +97,7 @@ const Navbar = () => {
       </div>
       <div className="navbar-end w-[40%]">
         <a
-          href="https://docs.google.com/document/d/1xIgjIW2XiEn-AZzKkTkcIiNDAunIUDdB/edit?usp=sharing&ouid=108384474506151884483&rtpof=true&sd=true"
+          href={`${cv}`}
           target="_blank"
           className="btn  flex justify-center items-center gap-2"
         >

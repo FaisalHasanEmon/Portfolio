@@ -28,7 +28,7 @@ const Skills = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full ">
         {/* Card-1 */}
-        <div className="card w-full card-md  shadow-base-200 shadow-lg backdrop-blur-2xl bg-white/2">
+        <div className="card w-full  card-md  shadow-base-200 shadow-lg backdrop-blur-2xl bg-white/2">
           <div className="card-body">
             <h2 className=" text-center text-xl font-bold">
               Front-end And User Verification
